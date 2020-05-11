@@ -1,6 +1,16 @@
-<div class="banner">
-  <h1>
-  <%= @answer%>
-  </h1>
+<div class="container">
+  <h1>Stupid Coaching</h1>
+
+  <div class="answer">
+    <%= @question %>
+    <p>- <i>You</i></p>
+  </div>
+
+  <div class="banner">
+    <p>
+    <%= @answer%>
+    </p>
+    <p><i>Your coach</i></p>
+  </div>
+  <%= link_to "Ask a new question", ask_path %>
 </div>
-<%= link_to "Ask a new question", ask_path %>

@@ -8,10 +8,11 @@ body {
 }
 
 .banner {
-  background: red;
-  h1 {
-    font-size: 50px;
-  }
+  background-color: #FEFFDE;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  width: 500px;
+  padding-left: 10px;
+  border-radius: 4px;
 }
 
 a {
@@ -19,4 +20,17 @@ a {
   &:hover {
     color: black;
   }
+}
+
+.container {
+  margin: 0px auto;
+  width: 600px;
+}
+
+.answer {
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  width: 500px;
+  background-color: white;
+  padding-left: 10px;
+  border-radius: 4px;
 }
